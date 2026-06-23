@@ -36,6 +36,14 @@ body {
     box-shadow: 0px 0px 2px;
     padding: 8px 10px 10px 10px ;
 }
+.top button:hover{
+    transition: 0.3s;
+    cursor :pointer;
+    color: white;
+    background-color: black;
+}
+
+
 .top{
     display: flex;
     justify-content: space-between;
@@ -109,4 +117,17 @@ body {
     background-color: black;
     color: #ffffff;
     border-radius: 7px;
+}
+
+.bottom button:hover{
+    transition: 0.3s;
+    cursor :pointer;
+    color: rgb(83, 83, 83);
+    background-color: aliceblue;
+    border: 0.2px solid;
+}
+
+.card:hover{
+    transition: 0.3s;
+    transform: scale(1.05) ;
 }
